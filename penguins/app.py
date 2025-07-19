@@ -131,3 +131,4 @@ with ui.card(full_screen=True):
 def filtered_data():
     selected_species = input.selected_species_list()
     return penguins_df[penguins_df["species"].isin(selected_species)]
+
